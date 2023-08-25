@@ -1,3 +1,7 @@
+![Bugfish](https://img.shields.io/badge/Bugfish-Software-orange)
+![Status](https://img.shields.io/badge/Status-Finished-green)
+![License](https://img.shields.io/badge/License-MIT-black)
+
 # bugfish-image-downloader (bid)
 Look inside folders for readme and license informations! Documentations can be found in the docs folder.   
 Just execute the index.html file in your webbrowser. (example: via drag and drop)
