@@ -12,12 +12,13 @@
 			font-weight: 400;
 			font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; 
 			color: #FFFFFF; 
-			idth: 100vw; 
+			width: 100vw; 
 			background: #000000;
 			text-align: center;
 			width: 100vw;
 			padding: 0px 0px 0px 0px;
 			margin: 0px 0px 0px 0px;
+			padding-bottom: 50px;
 		}
 		
 		body img {
@@ -26,7 +27,10 @@
 			max-height: 200px;
 			max-width: 100%;
 		}
-		
+		.submm li a {
+			font-size: 18px !important;
+			font-weight: normal !important;
+		}
 		header { 
 			background: #000000;  
 			color: #ff0c02; 
@@ -39,7 +43,9 @@
 			font-weight: bold;
 			color : white;
 		}
-		
+		#headertitle {
+			max-width: 1300px;
+		}
 		.main-menu {
 			text-align: center;
 			background: #000000;
@@ -47,11 +53,16 @@
 			padding: 0px 0px 0px 0px;
 			left: 0px;
 			width: 100vw;
+			
 		}
 		.main-menu li {
 			padding-left: 20px;
 			padding-right: 0px;
+			font-weight: bold;
 		}
+		.main-menu li a {
+			font-weight: bold;
+		}		
 		
 		footer { 
 			background: #080808; 
@@ -88,7 +99,12 @@
 			font-weight: bold;
 			padding-top: 5px;
 			padding-bottom: 5px;background: #242424;	 }
-
+		h3 { font-size: 18px; padding-bottom: 0px; color:#ffffff;			
+			text-align: center; 
+			width: 100; 
+			font-weight: normal;
+			padding-top: 5px;
+			padding-bottom: 5px;background: #121212;	 }
 		.inner { padding: 15px; text-align: left; width: 90%; max-width: 1300px; margin: auto;}
 		
 
@@ -111,4 +127,17 @@
 		}
 		.gobacktotop {
 		z-index:1000; !important; background: black; position: fixed; top: 0px; right: 0px; width: 110px; height: 30px;font-size: 16px;padding: 5px;border-bottom-left-radius: 5px;cursor: pointer;border-bottom: 2px solid #ff0c02;border-left: 2px solid #ff0c02;
+		}
+		
+		.inner_section table { width: 100%; }
+		.inner_section hr { border-color: #242424;  }
+		.inner_section th { background: #454545;  }
+		.inner_section tr { border-top: 2px solid #242424; text-align: left; }
+		.inner_section tr td { padding: 5px; }
+		.inner_section tr, .inner_section td { border-top: 2px solid #242424; text-align: left; }
+		.inner_section tr:hover { background:#343434; color: white;  }		
+		
+		#header{
+			margin: auto;
+			max-width: 1300px;
 		}
