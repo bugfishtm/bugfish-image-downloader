@@ -49,13 +49,14 @@ const finder = {
 			finder.createFinder();
 		}
 		setTimeout(function () {
+		
 			$('#finder').addClass('active');
 			$('#finderInput').focus();
 			if ($('#finderInput').val()) {
-				finder.findTerm($('#finderInput').val());
+				if($('#finderInput').val() > 3) {  finder.findTerm($('#finderInput').val());  }  else { $(finder.content).unhighlight(); $('#finder').removeClass('active'); finder.currentResult = 0; $('#finderInput').addClass('not-found'); finder.resultsCount = 0; finder.updateCurrent();}
 			}
 			$('#finderInput').on('input', function () {
-				finder.findTerm($(this).val());
+				if($('#finderInput').val().length > 2) {  finder.findTerm($(this).val()); }   else { $(finder.content).unhighlight(); $('#finder').removeClass('active'); finder.currentResult = 0; $('#finderInput').addClass('not-found'); finder.resultsCount = 0; finder.updateCurrent(); }
 			});
 		}, 50);
 	},
@@ -160,9 +161,10 @@ const finder = {
 		$('.highlight').removeClass('active');
 		$(`.highlight:eq(${i})`).addClass('active');
 
-		let offsetTop = -100;
+		let offsetTop = -150;
 		if (finder.scrollOffset() !== null) {
 			offsetTop = finder.scrollOffset() * -1;
+			offsetTop =  -120;
 		}
 
 		$(finder.wrapper).scrollTo('.highlight.active', {

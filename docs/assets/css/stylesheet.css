@@ -222,3 +222,22 @@ h1, h2, h3 {
 		color: white !important;
 		background: white !important;
 	}
+	
+	.table-dark th {
+		background: #242424;
+	}
+	
+	.table-dark td {
+		background: #121212;
+	}
+	.json.hljs {
+		background: #242424 !important;
+	}
+	
+	@media (max-width: 800px) {
+		#finder  {
+			margin-top: 40px;
+			background: #242424 !important;
+		}
+		
+	}

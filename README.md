@@ -7,6 +7,8 @@
 
 Just an old image downloader i made. You can enter an URL into the software and it will download all images found from the website. The software will create folders in the .exe directory, where the images will be saved. UI is self-explaining. You can input websites and it will download the images to a folder! You can set different settings in this download manager. It may not work on all websites, if you need any images downloaded, you can just give it a try!
 
+![Preview](./preview.png)
+
 ## Requirements
 Windows 7/8/9 is needed to run this software....  
 It may work on other Windows versions, but this has not been tested...
