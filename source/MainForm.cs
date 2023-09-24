@@ -465,7 +465,7 @@ namespace wib
         ///////////////////////////////////////////////////////
         private void label2_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http:/bugfishtm.de");
+            System.Diagnostics.Process.Start("http:/bugfish.eu");
         }
 
         private void MainForm_Load(object sender, EventArgs e)
@@ -475,7 +475,7 @@ namespace wib
 
         private void label7_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://bugfishtm.de/distributions/code/app/242");
+            System.Diagnostics.Process.Start("https://bugfish.eu");
         }
     }
 }
