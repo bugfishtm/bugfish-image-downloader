@@ -3,42 +3,37 @@
 ![License](https://img.shields.io/badge/License-MIT-black)
 ![Version](https://img.shields.io/badge/Version-1.0-white)
 
-# bugfish-image-downloader (bid)
+# Bugfish Image Downloader
 
-Just an old image downloader i made. You can enter an URL into the software and it will download all images found from the website. The software will create folders in the .exe directory, where the images will be saved. UI is self-explaining. You can input websites and it will download the images to a folder! You can set different settings in this download manager. It may not work on all websites, if you need any images downloaded, you can just give it a try!
+Repository: https://github.com/bugfishtm/bugfish-image-downloader  
+Documentation: https://bugfishtm.github.io/bugfish-image-downloader/  
+The Documentation is available in this repositories "docs"
+folder!
+
+## General Informations
+Just an old image downloader i made. You can enter an URL into the software and it will download all images found from a specific website. The software will create folders in the executables directory, where the images will be saved. Below you can see a screenshot of the users interface. You can set different settings in this download manager, for example you can search for images in subsites of the specified website and you can choose to only download High Definition Images (With a Dimension at least 1000 Px in Width) . It may not work on all websites, if you need any images downloaded, you can just give it a try!
 
 ![Preview](./preview.png)
 
 ## Requirements
-Windows 7/8/9 is needed to run this software....  
-It may work on other Windows versions, but this has not been tested...
-
-## Documentation
-Look inside folders for readme and license informations! Documentations can be found in the docs folder.   
-Just execute the index.html file in your webbrowser. (example: via drag and drop)
-
-You can find the documentation at www.bugfish.eu, besides  that there is a documentation inside the docs folder of this   
-repository and at https://bugfishtm.github.io/bugfish-image-downloader !  
-
-You can find the Documentation here:  
-https://bugfishtm.github.io/bugfish-image-downloader/
-
-You can find the Github Page here:  
-https://github.com/bugfishtm/bugfish-image-downloader
+You need a windows operating system with Net Framework 4.5 installed to run this software.
+No Installation is needed, you can run this software without installation and no registry keys will be written or used using this software. Folders and Files will be created in the same folder as the executable is executed from. 
 
 ## Repository Folders
 
 |Folder|Description|
 |-|-|
 |.github|Just files for Sponsorship informations|
-|source|Source Code to Deploy|
+|_source|Source Code to Deploy|
 |docs| Website Documentations|
-|releases|Releases of this software|
+|_releases|Releases of this software|
+|_executable|Executables of this software|
 
-For more informations see inside repository folders!
 
 ## Issues
-If you encounter issues or have questions using this software, do not hesitate write us at our Forum on www.bugfish.eu/forum !
+If you encounter issues or have questions using this software, do not hesitate write us at our Forum on www.bugfish.eu/forum!
+Besides that you can always request help at request@bugfish.eu. We will do the best to help you, if we have the possibility to do so.
 
-# License
-For License Informations see License.md inside directories!
+## License
+Software comes with CC0 1.0 Universal License.  
+See the license.md file for more informations
