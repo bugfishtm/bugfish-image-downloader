@@ -5,35 +5,44 @@
 
 # Bugfish Image Downloader
 
-Repository: https://github.com/bugfishtm/bugfish-image-downloader  
-Documentation: https://bugfishtm.github.io/bugfish-image-downloader/  
-The Documentation is available in this repositories "docs"
-folder!
+**Repository:** [Bugfish Image Downloader on GitHub](https://github.com/bugfishtm/bugfish-image-downloader)  
+**Documentation:** [Bugfish Image Downloader Documentation](https://bugfishtm.github.io/bugfish-image-downloader/)
 
-## General Informations
-Just an old image downloader i made. You can enter an URL into the software and it will download all images found from a specific website. The software will create folders in the executables directory, where the images will be saved. Below you can see a screenshot of the users interface. You can set different settings in this download manager, for example you can search for images in subsites of the specified website and you can choose to only download High Definition Images (With a Dimension at least 1000 Px in Width) . It may not work on all websites, if you need any images downloaded, you can just give it a try!
+*Please note that the comprehensive documentation is available within the "docs" folder of this repository.*
+
+## Overview
+
+Welcome to Bugfish Image Downloader, a versatile software tool designed for downloading images from websites. This utility enables you to input a URL, upon which it will retrieve and save all images found on the specified website. The downloaded images are organized into folders within the application's directory.
 
 ![Preview](./preview.png)
 
-## Requirements
-You need a windows operating system with Net Framework 4.5 installed to run this software.
-No Installation is needed, you can run this software without installation and no registry keys will be written or used using this software. Folders and Files will be created in the same folder as the executable is executed from. 
+### Key Features
 
-## Repository Folders
+- Easily download images from websites of your choice.
+- Configure settings to search for images within subsites of the specified website.
+- Choose to download only high-definition images with a width of at least 1000 pixels.
+- Note: While Bugfish Image Downloader is compatible with many websites, it may not work on all. Feel free to give it a try for your image downloading needs.
 
-|Folder|Description|
-|-|-|
-|.github|Just files for Sponsorship informations|
-|_source|Source Code to Deploy|
-|docs| Website Documentations|
-|_releases|Releases of this software|
-|_executable|Executables of this software|
+## System Requirements
 
+To run Bugfish Image Downloader, you need a Windows operating system with .NET Framework 4.5 installed. The software is designed to run without the need for installation, and it does not write or utilize any registry keys. All folders and files are created in the same location as the executable file.
 
-## Issues
-If you encounter issues or have questions using this software, do not hesitate write us at our Forum on www.bugfish.eu/forum!
-Besides that you can always request help at request@bugfish.eu. We will do the best to help you, if we have the possibility to do so.
+## Repository Structure
+
+Explore the various folders in the Bugfish Image Downloader repository:
+
+| Folder         | Description                    |
+| -------------- | ------------------------------ |
+| .github        | Sponsorship information files  |
+| _source        | Source code for deployment     |
+| docs           | Comprehensive website documentation |
+| _releases      | Software release versions      |
+| _executable    | Executable versions of the software |
+
+## Support and Assistance
+
+If you encounter any issues or have questions regarding the usage of this software, we encourage you to reach out for assistance. Visit our [Bugfish Forum](www.bugfish.eu/forum) to engage with our community and share your queries. Alternatively, you can request assistance via email at request@bugfish.eu. Our team is committed to providing the best possible support, where available.
 
 ## License
-Software comes with CC0 1.0 Universal License.  
-See the license.md file for more informations
+
+Bugfish Image Downloader is distributed under the CC0 1.0 Universal License. For more detailed information, please consult the `license.md` file included with the software.
