@@ -45,4 +45,4 @@ If you encounter any issues or have questions regarding the usage of this softwa
 
 ## License
 
-Bugfish Image Downloader is distributed under the CC0 1.0 Universal License. For more detailed information, please consult the `license.md` file included with the software.
+Bugfish Image Downloader is distributed under the GPLv3 License. For more detailed information, please consult the `license.md` file included with the software.
