@@ -1,6 +1,6 @@
 ![Bugfish](https://img.shields.io/badge/Bugfish-Software-orange)
 ![Status](https://img.shields.io/badge/Status-Finished-green)
-![License](https://img.shields.io/badge/License-MIT-black)
+![License](https://img.shields.io/badge/License-GPLv3-black)
 ![Version](https://img.shields.io/badge/Version-1.0-white)
 
 # Bugfish Image Downloader
