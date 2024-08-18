@@ -1,8 +1,3 @@
-![Bugfish](https://img.shields.io/badge/Bugfish-Software-orange)
-![Status](https://img.shields.io/badge/Status-Finished-green)
-![License](https://img.shields.io/badge/License-GPLv3-black)
-![Version](https://img.shields.io/badge/Version-1.0-white)
-
 # Bugfish Image Downloader
 
 **Repository:** [Bugfish Image Downloader on GitHub](https://github.com/bugfishtm/bugfish-image-downloader)  
@@ -14,7 +9,7 @@
 
 Welcome to Bugfish Image Downloader, a versatile software tool designed for downloading images from websites. This utility enables you to input a URL, upon which it will retrieve and save all images found on the specified website. The downloaded images are organized into folders within the application's directory.
 
-![Preview](./preview.png)
+![Preview](./docs/preview.png)
 
 ### Key Features
 
@@ -36,8 +31,7 @@ Explore the various folders in the Bugfish Image Downloader repository:
 | .github        | Sponsorship information files  |
 | _source        | Source code for deployment     |
 | docs           | Comprehensive website documentation |
-| _releases      | Software release versions      |
-| _executable    | Executable versions of the software |
+| _releases      | Software release versions and Executables      |
 
 ## Support and Assistance
 
