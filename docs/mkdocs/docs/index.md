@@ -1,6 +1,6 @@
 # Bugfish Image Downloader
 
-## Overview
+## Introduction
 
 Welcome to Bugfish Image Downloader, a versatile tool designed for downloading images from websites. With this utility, you can input a URL, and it will retrieve and save all images found on the specified website. The downloaded images are neatly organized into folders within the application's directory.
 
