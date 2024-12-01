@@ -1,17 +1,12 @@
 # Bugfish Image Downloader
 
-**Repository:** [Bugfish Image Downloader on GitHub](https://github.com/bugfishtm/bugfish-image-downloader)  
-**Documentation:** [Bugfish Image Downloader Documentation](https://bugfishtm.github.io/bugfish-image-downloader/)
-
-*Please note that the comprehensive documentation is available within the "docs" folder of this repository.*
-
-## Overview
+## Introduction
 
 Welcome to Bugfish Image Downloader, a versatile software tool designed for downloading images from websites. This utility enables you to input a URL, upon which it will retrieve and save all images found on the specified website. The downloaded images are organized into folders within the application's directory.
 
 ![Preview](./docs/preview.png)
 
-### Key Features
+## Key Features
 
 - Easily download images from websites of your choice.
 - Configure settings to search for images within subsites of the specified website.
@@ -40,3 +35,5 @@ If you encounter any issues or have questions regarding the usage of this softwa
 ## License
 
 Bugfish Image Downloader is distributed under the GPLv3 License. For more detailed information, please consult the `license.md` file included with the software!
+
+🐟 Bugfish <3
