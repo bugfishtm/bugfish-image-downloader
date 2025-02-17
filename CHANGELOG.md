@@ -16,8 +16,3 @@ All notable changes to this project will be documented in this file.
 - A seamless and user-friendly experience.
 - No known bugs; stable performance.
 - Unique web scraping functionality within the image downloader category.
-
-### Notes
-
-- This is the final version of the project, with no further development planned.
-- Continued support will be available for user inquiries.
