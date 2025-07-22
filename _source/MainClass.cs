@@ -162,7 +162,14 @@ namespace wib
                                 return false;
                             }
                         } else  {
-                            bitmap.Save(filename + "." + tmpendingforfile, bitmap.RawFormat);
+                            try
+                            {
+                                bitmap.Save(filename + "." + tmpendingforfile, bitmap.RawFormat);
+                            }
+                            catch
+                            {
+                                // Intentionally ignored: errors while saving are silently ignored
+                            }
                         }
                    
                     stream.Flush();

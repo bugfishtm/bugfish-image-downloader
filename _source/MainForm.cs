@@ -1,12 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Diagnostics;
 using System.Drawing;
+using System.Globalization;
 using System.IO;
 using System.Net;
-using System.Windows.Forms;
-using System.ComponentModel;
-using System.Globalization;
-using System.Collections.Generic;
 using System.Text;
+using System.Windows.Forms;
 
 namespace wib
 {
@@ -17,7 +18,7 @@ namespace wib
         /// DEFAULT VARIABLES FOR EXECUTION
         ////////////////////////////////////////////////////
             readonly String CurrentAppPath       = Directory.GetCurrentDirectory();
-            readonly String DownloadPath         = Directory.GetCurrentDirectory() + "\\output";
+            readonly String DownloadPath         = Directory.GetCurrentDirectory() + "\\__Output";
             String OutputFileNameWithDate        = null;
             String CurrentFileStringMsg          = null;
             bool isRunAborted                    = false;
@@ -476,6 +477,23 @@ namespace wib
         private void label7_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://bugfish.eu");
+        }
+
+        private void button_openfolder_Click(object sender, EventArgs e)
+        {
+            if (Directory.Exists(DownloadPath))
+            {
+                Process.Start("explorer.exe", DownloadPath);
+            }
+            else
+            {
+                MessageBox.Show(
+                    "The folder does not exist:\n" + DownloadPath,
+                    "Error",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error
+                );
+            }
         }
     }
 }
